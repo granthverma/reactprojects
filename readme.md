@@ -21,7 +21,7 @@ As I embarked on my React.js journey, I set out to create projects that not only
 
 ### 1. **Todo-AppContextApi**
 
-![Todo-AppContextApi](url-to-todo-app-image)
+![Todo-AppContextApi](1.png)
 
 The Todo-AppContextApi is more than just a task manager; it's a testament to my mastery of React, utilizing the powerful Context API for state management. The project is built with modern web development practices, including Vite for efficient bundling and deployment. Explore the live demo [here](https://granthverma.github.io/TodoAppContextApi/) and the source code on [GitHub](https://github.com/granthverma/TodoAppContextApi/tree/main).
 
