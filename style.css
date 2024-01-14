@@ -1,0 +1,174 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f4671bf5, #ec6ead);
+    color: #fff;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin-top: 5px;
+    color: #212121;
+}
+
+#projects {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px 0;
+}
+
+.project {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: transform 0.3s;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    color: #333;
+}
+
+.project-info {
+    flex: 1;
+}
+
+.project-image {
+    flex: 1;
+    margin-left: 20px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+a:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: rgba(20, 20, 20, 0.7);
+    color: #232323;
+    text-align: center;
+    padding: 10px 0;
+}
+
+a.LinkedIn,
+a.github {
+    transition: color 0.3s ease-in-out;
+}
+
+a.LinkedIn:hover,
+a.github:hover {
+    color: #ff5722; /* Change to your preferred color on hover */
+}
+
+
+.project-image img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover .project-image img {
+    transform: scale(1.1);
+}
+
+
+
+h3 {
+    color: black;
+}
+
+.last-p{ 
+    
+    color: #fff;
+
+}
+
+.Linkedin{
+    background-color: #1760ff;
+}
+
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .project {
+        flex-direction: column; /* Stack project info and image vertically on smaller screens */
+    }
+
+    .project-image {
+        margin-left: 0; /* Reset margin for project image on smaller screens */
+        margin-top: 10px; /* Add some spacing between project info and image */
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    /* Adjust other styles as needed for tablets */
+}
+
+/* Laptop Styles */
+@media only screen and (min-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+
+    .container {
+        max-width: 960px;
+        padding: 0;
+    }
+
+    /* Adjust other styles as needed for laptops */
+}
